@@ -23,3 +23,14 @@ for (let index = 0; index < masyvoIlgis; index++) {
     sum += wallet[index]
 }
 console.log(sum);
+
+console.log('===== 3 uzduotis');
+
+let sumMoreThan2 = 0;
+
+for (let index = 0; index < masyvoIlgis; index++) {
+    if (wallet[index] > 2) {
+        sumMoreThan2 += wallet[index]
+    }
+}
+console.log(sumMoreThan2);
