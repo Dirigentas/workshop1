@@ -14,3 +14,12 @@ for (let i = 0; i < masyvoIlgis; i++) {
     wallet.push(Math.floor(Math.random() * (10 - 1 + 1) + 1));
 }
 console.log(wallet);
+
+console.log('===== 2 uzduotis');
+
+let sum = 0;
+
+for (let index = 0; index < masyvoIlgis; index++) {
+    sum += wallet[index]
+}
+console.log(sum);
