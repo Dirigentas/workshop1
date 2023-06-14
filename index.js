@@ -11,10 +11,22 @@ const funkcija4 = number => {
         if (number % i === 0) {
             answer++;
         }
-        console.log(answer);
     }
-
     return answer;
 }
-
 console.log(funkcija4(8));
+
+console.log('********* 5 uzduotis ******');
+
+const funkcija5 = () => {
+    // const array = [...Array(100)].map(n => Math.floor(Math.random() * (77 - 33 + 1) + 33));
+
+    let array = [];
+    for (let i = 0; i < 100; i++) {
+        array.push(Math.floor(Math.random() * (77 - 33 + 1) + 33))
+        
+    }
+
+    return array;
+}
+console.log(funkcija5());
